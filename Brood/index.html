@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>The Brood</title>
+    <link rel="icon" href="Icon1.png" />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main">
+        <img class="mainfoto" src="Brood6.jpg" alt="brood" />
+        <button onclick="Brood()" class="centered">BROOD</button>
+      </div>
+    </header>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+    <img class="menu" onclick="openNav()" src="Icon5.png" alt="brood" />
+
+    <main>
+      <h2 class="intro">INFORMATIE</h2>
+      <div class="intoduction" id="intoduction">
+        <div class="vijftig">
+          <h2>Introductie</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam
+            dignissim diam quis enim lobortis. Dictum at tempor commodo
+            ullamcorper a lacus vestibulum sed. Ut faucibus pulvinar elementum
+            integer enim neque. Consectetur lorem donec massa sapien faucibus et
+            molestie ac. Dictum fusce ut placerat orci nulla pellentesque
+            dignissim enim sit. <span id="dots">...</span>
+            <span id="more"
+              >Eu augue ut lectus arcu bibendum at. At quis risus sed vulputate
+              odio. Leo vel fringilla est ullamcorper eget nulla facilisi etiam.
+              Fermentum dui faucibus in ornare quam viverra. Adipiscing diam
+              donec adipiscing tristique risus. Et sollicitudin ac orci
+              phasellus egestas. Sem fringilla ut morbi tincidunt augue interdum
+              velit euismod. Orci eu lobortis elementum nibh.<br />
+              <br />
+              Neque ornare aenean euismod elementum nisi quis eleifend quam
+              adipiscing. Tristique sollicitudin nibh sit amet commodo nulla
+              facilisi. Faucibus in ornare quam viverra orci sagittis eu.
+              Viverra suspendisse potenti nullam ac tortor vitae purus faucibus.
+              Nibh sed pulvinar proin gravida hendrerit. Gravida neque convallis
+              a cras semper auctor. Orci nulla pellentesque dignissim enim sit
+              amet venenatis. Lacus laoreet non curabitur gravida arcu ac tortor
+              dignissim convallis. Vitae suscipit tellus mauris a diam maecenas
+              sed. Volutpat commodo sed egestas egestas fringilla phasellus
+              faucibus scelerisque eleifend. Phasellus vestibulum lorem sed
+              risus. Placerat duis ultricies lacus sed turpis tincidunt id
+              aliquet risus. Neque ornare aenean euismod elementum nisi quis
+              eleifend quam. Sapien eget mi proin sed libero enim sed.</span
+            >
+          </p>
+
+          <h4 onclick="showLess()" id="myBtn">Read more</h4>
+        </div>
+        <div class="vijftig">
+          <div class="pink">
+            <img class="introimg" src="Brood8.jpg" alt="brood" />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        Hover over me to show Brood
+        <p class="hover">
+          <img class="show" src="Brood1.jpg" alt="brood" />
+          <img class="show" src="Brood2.jpg" alt="brood" />
+          <img class="show" src="Brood3.jpg" alt="brood" />
+          <img class="show" src="Brood5.jpg" alt="brood" />
+        </p>
+      </div>
+    </main>
+    <footer><h2>contact</h2></footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
