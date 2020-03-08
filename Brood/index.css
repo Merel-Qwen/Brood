@@ -169,6 +169,34 @@ div:hover .hover {
   font-size: 60px;
 }
 
+.mySlides {
+  display: none;
+  background-color: rgb(241, 189, 189);
+  opacity: 0.7;
+}
+.w3-display-left {
+  position: absolute;
+  margin-top: -500px;
+
+  color: rgb(241, 189, 189);
+  border-color: transparent;
+
+  background-color: transparent;
+  left: 0%;
+  font-size: 60px;
+}
+.w3-display-right {
+  position: absolute;
+  margin-top: -500px;
+  right: 0%;
+
+  color: rgb(241, 189, 189);
+  border-color: transparent;
+
+  background-color: transparent;
+  font-size: 60px;
+}
+
 @media screen and (max-width: 1024px) {
   .centered {
     position: absolute;
